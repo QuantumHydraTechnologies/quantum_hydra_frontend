@@ -1,27 +1,31 @@
+import path from "path";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+import { inspectAttr } from "kimi-plugin-inspect-react";
 
-import path from "path"
-const __dirname = import.meta.dirname
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
-import { inspectAttr } from 'kimi-plugin-inspect-react'
+const __dirname = path.resolve();
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    plugins: [
-  inspectAttr(),
-  react()
-],
-    inspectAttr(), react()],
+    inspectAttr(),
+    react(),
+  ],
+
   server: {
     port: 3000,
   },
+
   resolve: {
     alias: {
-     
+      "@": path.resolve(__dirname, "./src"),
+      "@contracts": path.resolve(__dirname, "./contracts"),
+      "@db": path.resolve(__dirname, "./db"),
+      db: path.resolve(__dirname, "./db"),
     },
   },
-  envDir: path.resolve(__dirname),
+
+  envDir: __dirname,
+
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
