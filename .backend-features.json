@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "features": ["auth","db"],
+  "app_id": "19e00a12-5942-838d-8000-000036f42c48",
+  "initialized_at": "2026-05-07T04:11:21Z"
+}

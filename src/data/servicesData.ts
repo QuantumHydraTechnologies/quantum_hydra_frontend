@@ -1,0 +1,58 @@
+export const servicesData = [
+  {
+    id: 1,
+    title: "Cybersecurity",
+    description: "Enterprise-grade security solutions including threat detection, vulnerability assessments, penetration testing, and 24/7 SOC monitoring to protect your digital assets.",
+    icon: "Shield",
+    features: ["Threat Intelligence", "Penetration Testing", "Security Audits", "Incident Response"],
+  },
+  {
+    id: 2,
+    title: "AI Solutions",
+    description: "Cutting-edge artificial intelligence and machine learning systems for predictive analytics, natural language processing, computer vision, and intelligent automation.",
+    icon: "Brain",
+    features: ["Machine Learning", "NLP Systems", "Computer Vision", "Predictive Analytics"],
+  },
+  {
+    id: 3,
+    title: "Networking",
+    description: "Design and implementation of robust network infrastructures including LAN/WAN, SD-WAN, wireless solutions, and network security architecture.",
+    icon: "Network",
+    features: ["Network Design", "SD-WAN", "Wireless Solutions", "Network Security"],
+  },
+  {
+    id: 4,
+    title: "Software Development",
+    description: "Full-stack custom software development from enterprise applications to mobile apps, using modern agile methodologies and DevOps practices.",
+    icon: "Code2",
+    features: ["Custom Apps", "Mobile Development", "API Integration", "DevOps"],
+  },
+  {
+    id: 5,
+    title: "Cloud Computing",
+    description: "Cloud migration, architecture, and management services across AWS, Azure, and Google Cloud with focus on scalability, security, and cost optimization.",
+    icon: "Cloud",
+    features: ["Cloud Migration", "Architecture", "Serverless", "Cost Optimization"],
+  },
+  {
+    id: 6,
+    title: "Smart Systems",
+    description: "IoT and smart system integration for building automation, industrial control systems, and intelligent sensor networks with real-time monitoring.",
+    icon: "Cpu",
+    features: ["IoT Integration", "Building Automation", "Sensor Networks", "Real-time Monitoring"],
+  },
+  {
+    id: 7,
+    title: "IT Consultancy",
+    description: "Strategic technology consulting to align IT infrastructure with business goals, digital transformation roadmaps, and technology stack optimization.",
+    icon: "MessageSquare",
+    features: ["Digital Strategy", "Tech Roadmaps", "Process Optimization", "Risk Assessment"],
+  },
+  {
+    id: 8,
+    title: "Web Development",
+    description: "Modern, responsive, and high-performance web applications using React, Next.js, and headless CMS solutions with SEO and accessibility best practices.",
+    icon: "Globe",
+    features: ["React/Next.js", "Headless CMS", "E-commerce", "SEO Optimization"],
+  },
+];
