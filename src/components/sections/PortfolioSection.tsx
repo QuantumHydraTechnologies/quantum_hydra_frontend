@@ -196,28 +196,31 @@ export default function PortfolioSection() {
 
                 {/* Actions */}
                 <div className="flex flex-wrap gap-4">
-                  {selectedProject.demoUrl && (
+                  {selectedProject?.demoUrl ? (
                     <a
                       href={selectedProject.demoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-primary"
+                      onClick={(e) => e.stopPropagation()}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
                     </a>
-                  )}
-                  {selectedProject.githubUrl && (
+                  ) : null}
+                
+                  {selectedProject?.githubUrl ? (
                     <a
                       href={selectedProject.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-outline"
+                      onClick={(e) => e.stopPropagation()}
                     >
                       <Github className="w-4 h-4 mr-2" />
                       View Code
                     </a>
-                  )}
+                  ) : null}
                 </div>
               </div>
             </motion.div>
