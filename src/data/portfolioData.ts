@@ -38,7 +38,7 @@ export const portfolioData: Project[] = [
       "Guest checkout with optional user registration",
     ],
     githubUrl: "https://github.com/quantumhydra",
-    demoUrl: "#",
+    demoUrl: "https://kaimosishop.infinityfreeapp.com/",
   },
 {
   id: 2,
