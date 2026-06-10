@@ -88,6 +88,51 @@ export const portfolioData: Project[] = [
   demoUrl: "#",
 
   },
+  {
+  id: 4,
+  title: "AI Cyber Café Document & Printing System",
+  slug: "ai-cyber-cafe-printing-system",
+  description: "An intelligent cyber café automation platform that allows customers to upload documents without accounts, select services like printing, scanning, photocopying, and binding, automatically calculates pricing based on accurate page detection, and enables instant M-Pesa payments with real-time print queue management for cyber cafés.",
+  
+  category: "AI + SaaS",
+  
+  image: "/images/portfolio/cyber-cafe-system.jpg",
+  
+  images: [
+    "/images/portfolio/cyber-cafe-system.jpg",
+    "/images/portfolio/document-upload-flow.jpg",
+    "/images/portfolio/admin-dashboard.jpg"
+  ],
+
+  technologies: [
+    "Node.js",
+    "Express",
+    "React",
+    "PostgreSQL",
+    "Socket.io",
+    "M-Pesa Daraja API",
+    "LibreOffice Headless",
+    "PDF Parser",
+    "Tailwind CSS"
+  ],
+
+  features: [
+    "No-account customer document upload system",
+    "Service-first workflow (print, scan, photocopy, binding, lamination)",
+    "Accurate document page counting (DOCX, PDF, images via rendering engine)",
+    "Automatic pricing engine based on pages and service type",
+    "M-Pesa STK Push payment integration",
+    "Real-time order tracking system",
+    "Cyber café staff dashboard with authentication",
+    "Secure file storage with restricted access",
+    "Print queue management system (no manual downloads)",
+    "Live order status updates via WebSockets",
+    "Role-based access control (Owner / Attendant)"
+  ],
+
+  githubUrl: "https://github.com/quantumhydra",
+  demoUrl: "https://cybercafe-1.onrender.com"
+}
   /*
   {
     id: 4,
