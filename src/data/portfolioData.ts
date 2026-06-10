@@ -96,7 +96,7 @@ export const portfolioData: Project[] = [
   
   category: "AI + SaaS",
   
-  image: "/images/portfolio/cyber-cafe-system.jpg",
+  image: "/images/portfolio/cyber-cafe-system.png",
   
   images: [
     "/images/portfolio/cyber-cafe-system.jpg",
